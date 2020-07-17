@@ -8,7 +8,7 @@
     "php",
     "email"
   ],
-  "homepage": "https://github.com/innovato/mailjet-apiv3-php/",
+  "homepage": "https://github.com/mailjet/mailjet-apiv3-php/",
   "license": "MIT",
   "authors": [
     {
@@ -26,8 +26,8 @@
     "php-coveralls/php-coveralls": "^1.0"
   },
   "autoload": {
-    "psr-4": {
-      "Mailjet\\": "src/"
+    "psr-0": {
+      "Mailjet": "src/"
     }
   }
 }
