@@ -26,8 +26,8 @@
     "php-coveralls/php-coveralls": "^1.0"
   },
   "autoload": {
-    "psr-0": {
-      "Mailjet": "src/"
+    "psr-4": {
+      "Mailjet\\": "src/"
     }
   }
 }
